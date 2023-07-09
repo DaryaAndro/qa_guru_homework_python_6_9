@@ -4,11 +4,15 @@ on:
   push:
     branches:
       - "master"
+
 jobs:
   test:
     name: Test
     runs-on: ubuntu-latest
     steps:
+      - name: Install chrome
+        uses: browser-actions/setup-chrome@v1
+      - run: chrome --version
       - uses: actions/checkout@v2
       - name: Set up Python 3.x
         uses: actions/setup-python@v2
@@ -17,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
-      - name: Install dependencies
+      - name: Run tests
         run: |
           pytest --alluredir=allure-results
 
