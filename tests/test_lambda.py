@@ -3,6 +3,7 @@ import allure
 from selene import browser, be, by
 from allure_commons.types import Severity
 
+
 @allure.tag("Web")
 @allure.severity(Severity.CRITICAL)
 @allure.label("owner", "eroshenkoam")
@@ -25,4 +26,3 @@ def test_dynamic_steps():
 
     with allure.step("Проверить наличие Issue с номером 76"):
         browser.element(by.partial_text("#76")).should(be.visible)
-

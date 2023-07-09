@@ -3,6 +3,7 @@ import allure
 from selene import browser, be, by
 from allure_commons.types import Severity
 
+
 @allure.tag("Web")
 @allure.severity(Severity.CRITICAL)
 @allure.label("owner", "eroshenkoam")
