@@ -1,5 +1,3 @@
-import allure
-
 from selene import browser, be, by
 
 
