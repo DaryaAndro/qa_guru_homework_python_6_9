@@ -1,4 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Mon Jul 10 13:24:48 GMT 2023","Mon Jul 10 13:24:57 GMT 2023","8754","tests","test_decorator","","","","test_decorator_steps",""
-"failed","Mon Jul 10 13:25:05 GMT 2023","Mon Jul 10 13:25:12 GMT 2023","6886","tests","test_selene","","","","test_github",""
-"failed","Mon Jul 10 13:24:57 GMT 2023","Mon Jul 10 13:25:04 GMT 2023","6676","tests","test_lambda","","","","test_dynamic_steps",""
+"passed","Mon Jul 10 13:45:32 GMT 2023","Mon Jul 10 13:45:38 GMT 2023","5719","tests","test_selene","","","","test_github",""
+"passed","Mon Jul 10 13:45:11 GMT 2023","Mon Jul 10 13:45:27 GMT 2023","15913","tests","test_decorator","","","","test_decorator_steps",""
+"passed","Mon Jul 10 13:45:27 GMT 2023","Mon Jul 10 13:45:32 GMT 2023","5238","tests","test_lambda","","","","test_dynamic_steps",""
